@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+	/* font */
+	font-size: 62.5%; /* 10px */
+
+	/* colors */
+
+	--Nutmeg: #854632;
+	--Dark-Raspberry: #7b284f;
+
+	--White: #ffffff;
+	--Rose-White: #ffebf5;
+	--Eggshell: #f3e6d8;
+	--Light-Grey: #e4ded8;
+	--Wenge-Brown: #5f574e;
+	--Dark-Charcoal: #302d2c;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+html,
+body,
+button {
+	font-family: "Outfit", sans-serif;
+}
