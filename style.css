@@ -17,7 +17,7 @@
 	--Dark-Raspberry: #7b284f;
 
 	--White: #ffffff;
-	--Rose-White: #ffebf5;
+	--Rose-White: #ffeef6;
 	--Eggshell: #f3e6d8;
 	--Light-Grey: #e4ded8;
 	--Wenge-Brown: #5f574e;
@@ -228,4 +228,33 @@ table td {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1120px) {
+	body {
+		background-color: var(--Eggshell);
+		margin: 10rem 0;
+	}
+
+	.container {
+		background-color: #fafafa;
+		border-radius: 3rem;
+
+		width: min(96rem, 100%);
+		margin: 0 auto;
+	}
+
+	main img {
+		width: 100%;
+		padding: 4.8rem 4.8rem;
+		border-radius: 6rem;
+	}
+
+	section {
+		padding: 0rem 4.8rem;
+	}
+
+	.introduction h1 {
+		margin-top: 0;
+	}
 }
